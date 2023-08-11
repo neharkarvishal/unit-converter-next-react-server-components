@@ -1,22 +1,26 @@
-# Next.js 12 React Server Components Demo
+# Next.js App Router + React Server Components
 
-This is the demo of Hacker News built with Next.js and React Server Components. Read our announcement here: [Next.js 12](https://nextjs.org/blog/next-12).
+Try the demo live here: [**next-rsc-hn.vercel.app**](https://next-rsc-hn.vercel.app).
 
-**Try the demo: https://next-news-rsc.vercel.sh**
+## Introduction
 
-### Development
+This is a demo app of the Hacker News website clone, which shows Next.js App Router with support for React Server Components.
 
-To get started, run the following commands:
+[Learn more](https://nextjs.org/docs/getting-started/react-essentials#server-components).
 
-```
-yarn
-yarn dev
-```
+### Running Locally
 
-And visit localhost:3000.
+1. `pnpm install`
+2. `pnpm dev`
 
-### Note
+Go to `localhost:3000`.
 
-React Server Components are still [experimental](https://reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components.html). To learn more about React Server Components, read our blog post: [Everything About React Server Components](https://vercel.com/blog/everything-about-react-server-components).
+### Deploy
 
-React Server Components support is a built-in feature of Next.js 12. Full documentation is available here: [React 18 — Next.js](https://nextjs.org/docs/advanced-features/react-18).
+You can quickly deploy the demo to Vercel by clicking this link:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/templates/next.js/react-server-components)
+
+## License
+
+This demo is MIT licensed.

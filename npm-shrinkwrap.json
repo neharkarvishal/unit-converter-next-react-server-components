@@ -1,0 +1,644 @@
+{
+  "name": "unit-converter-next-react-server-components",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "unit-converter-next-react-server-components",
+      "dependencies": {
+        "@types/node": "^18.16.2",
+        "@types/react": "18.2.0",
+        "ms": "3.0.0-canary.1",
+        "next": "13.4.3-canary.2",
+        "prettier": "^3.0.1",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "server-only": "^0.0.1",
+        "typescript": "^5.0.4"
+      }
+    },
+    "node_modules/@next/env": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/env/-/env-13.4.3-canary.2.tgz",
+      "integrity": "sha512-j8DAjfn1OoQ+SH78AsMY0e1mx2K2k+d5WIZxa+nJoysKH2Mgyx6KlQHc6OJLdWuv6bCT68LQxMOJ0KGsU1Wz6A=="
+    },
+    "node_modules/@next/swc-darwin-arm64": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.4.3-canary.2.tgz",
+      "integrity": "sha512-kOy5V9cVg6UiyFH23u/nf7pfUkHoQp/Gh9YPTmqrTabBDbzTul0+6HtfAJFwJ5mGm8tA4cxBwQhp0gh3ZbKXBw==",
+      "cpu": [
+        "arm64"
+      ],
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    "node_modules/@next/swc-darwin-x64": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-13.4.3-canary.2.tgz",
+      "integrity": "sha512-z05rr6lxgpu5SSEtiO3nH9RzYbZeIB5vqGDLELprCP33Wv7WjapGDnwIaVWJemVQo4BQ8pDXDYDEQsTdlsRkSA==",
+      "cpu": [
+        "x64"
+      ],
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    "node_modules/@next/swc-linux-arm64-gnu": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-13.4.3-canary.2.tgz",
+      "integrity": "sha512-m4gW+lix7a1enm+zK2IzXowOYGeBM5kmAtTS+PSvcU4LBgPtAC2moEh8rWVI3544QuEHbR5hM3DeyPN6bkWBwA==",
+      "cpu": [
+        "arm64"
+      ],
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    "node_modules/@next/swc-linux-arm64-musl": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-13.4.3-canary.2.tgz",
+      "integrity": "sha512-zW9Y04gRLR020aqX1WzjKwyHKkqGhAeAHAXgA1/OivZ+qWIsJpikgq2962QJwauizCAFbq+pdCKf54JJkkh8rw==",
+      "cpu": [
+        "arm64"
+      ],
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    "node_modules/@next/swc-linux-x64-gnu": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-13.4.3-canary.2.tgz",
+      "integrity": "sha512-y5Il4ZnZZxYomSqLFxSCsDZSYO9vlOwByD/0JUMzB85hV0z8BYDdoliRpVkoaUrqn7tDdKBlS8qrgefOd85Ejw==",
+      "cpu": [
+        "x64"
+      ],
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    "node_modules/@next/swc-linux-x64-musl": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-13.4.3-canary.2.tgz",
+      "integrity": "sha512-mx6GUN1SgV4Du4oxvYQgIsdRG44VLMWqScmu4QtOTzup4ouOCwN620vqTtO4BET5RkFGher0aUt4ZJQFCH+7zw==",
+      "cpu": [
+        "x64"
+      ],
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    "node_modules/@next/swc-win32-arm64-msvc": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-13.4.3-canary.2.tgz",
+      "integrity": "sha512-TC7cjX6IV4tNAfYQlNklNXy5Vtwua9GRn4Odxxit8YHGo0un1UU4lvJSBEXa6b9o4aWDAUMMgi3M0/tU6IjGew==",
+      "cpu": [
+        "arm64"
+      ],
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    "node_modules/@next/swc-win32-ia32-msvc": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-13.4.3-canary.2.tgz",
+      "integrity": "sha512-YiAaes1tQqxTQwhDM4+mlePExf+DcN+MhVUhfnh5VhhE1hkoWWZyPoPzw/KSXSPGr97+IUbCtRxWXdIMQkG3Og==",
+      "cpu": [
+        "ia32"
+      ],
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    "node_modules/@next/swc-win32-x64-msvc": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.4.3-canary.2.tgz",
+      "integrity": "sha512-N+LcM2cWCEAQ/xXdF3W0avdgZ4aJ9ASXGXRqXMjh6C8V1Wet7/lvDGtOp86WRnhP23fGdi643fo6TGl6hU5+qQ==",
+      "cpu": [
+        "x64"
+      ],
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "engines": {
+        "node": ">= 10"
+      }
+    },
+    "node_modules/@swc/helpers": {
+      "version": "0.5.1",
+      "license": "Apache-2.0",
+      "dependencies": {
+        "tslib": "^2.4.0"
+      }
+    },
+    "node_modules/@types/node": {
+      "version": "18.16.2",
+      "license": "MIT"
+    },
+    "node_modules/@types/prop-types": {
+      "version": "15.7.5",
+      "license": "MIT"
+    },
+    "node_modules/@types/react": {
+      "version": "18.2.0",
+      "license": "MIT",
+      "dependencies": {
+        "@types/prop-types": "*",
+        "@types/scheduler": "*",
+        "csstype": "^3.0.2"
+      }
+    },
+    "node_modules/@types/scheduler": {
+      "version": "0.16.3",
+      "license": "MIT"
+    },
+    "node_modules/busboy": {
+      "version": "1.6.0",
+      "dependencies": {
+        "streamsearch": "^1.1.0"
+      },
+      "engines": {
+        "node": ">=10.16.0"
+      }
+    },
+    "node_modules/caniuse-lite": {
+      "version": "1.0.30001481",
+      "funding": [
+        {
+          "type": "opencollective",
+          "url": "https://opencollective.com/browserslist"
+        },
+        {
+          "type": "tidelift",
+          "url": "https://tidelift.com/funding/github/npm/caniuse-lite"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/sponsors/ai"
+        }
+      ],
+      "license": "CC-BY-4.0"
+    },
+    "node_modules/client-only": {
+      "version": "0.0.1",
+      "license": "MIT"
+    },
+    "node_modules/csstype": {
+      "version": "3.1.2",
+      "license": "MIT"
+    },
+    "node_modules/js-tokens": {
+      "version": "4.0.0",
+      "license": "MIT"
+    },
+    "node_modules/loose-envify": {
+      "version": "1.4.0",
+      "license": "MIT",
+      "dependencies": {
+        "js-tokens": "^3.0.0 || ^4.0.0"
+      },
+      "bin": {
+        "loose-envify": "cli.js"
+      }
+    },
+    "node_modules/ms": {
+      "version": "3.0.0-canary.1",
+      "license": "MIT",
+      "engines": {
+        "node": ">=12.13"
+      }
+    },
+    "node_modules/nanoid": {
+      "version": "3.3.6",
+      "funding": [
+        {
+          "type": "github",
+          "url": "https://github.com/sponsors/ai"
+        }
+      ],
+      "license": "MIT",
+      "bin": {
+        "nanoid": "bin/nanoid.cjs"
+      },
+      "engines": {
+        "node": "^10 || ^12 || ^13.7 || ^14 || >=15.0.1"
+      }
+    },
+    "node_modules/next": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/next/-/next-13.4.3-canary.2.tgz",
+      "integrity": "sha512-JrghmWg4ZRuwz2F02mLa7nOdSDtwDZjIa62awovVNSABrX46cywt6fPwmoTzv6LJfqmu82b0lZ2bRe2zxA+iLQ==",
+      "dependencies": {
+        "@next/env": "13.4.3-canary.2",
+        "@swc/helpers": "0.5.1",
+        "busboy": "1.6.0",
+        "caniuse-lite": "^1.0.30001406",
+        "postcss": "8.4.14",
+        "styled-jsx": "5.1.1",
+        "zod": "3.21.4"
+      },
+      "bin": {
+        "next": "dist/bin/next"
+      },
+      "engines": {
+        "node": ">=16.8.0"
+      },
+      "optionalDependencies": {
+        "@next/swc-darwin-arm64": "13.4.3-canary.2",
+        "@next/swc-darwin-x64": "13.4.3-canary.2",
+        "@next/swc-linux-arm64-gnu": "13.4.3-canary.2",
+        "@next/swc-linux-arm64-musl": "13.4.3-canary.2",
+        "@next/swc-linux-x64-gnu": "13.4.3-canary.2",
+        "@next/swc-linux-x64-musl": "13.4.3-canary.2",
+        "@next/swc-win32-arm64-msvc": "13.4.3-canary.2",
+        "@next/swc-win32-ia32-msvc": "13.4.3-canary.2",
+        "@next/swc-win32-x64-msvc": "13.4.3-canary.2"
+      },
+      "peerDependencies": {
+        "@opentelemetry/api": "^1.1.0",
+        "fibers": ">= 3.1.0",
+        "node-sass": "^6.0.0 || ^7.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "sass": "^1.3.0"
+      },
+      "peerDependenciesMeta": {
+        "@opentelemetry/api": {
+          "optional": true
+        },
+        "fibers": {
+          "optional": true
+        },
+        "node-sass": {
+          "optional": true
+        },
+        "sass": {
+          "optional": true
+        }
+      }
+    },
+    "node_modules/picocolors": {
+      "version": "1.0.0",
+      "license": "ISC"
+    },
+    "node_modules/postcss": {
+      "version": "8.4.14",
+      "funding": [
+        {
+          "type": "opencollective",
+          "url": "https://opencollective.com/postcss/"
+        },
+        {
+          "type": "tidelift",
+          "url": "https://tidelift.com/funding/github/npm/postcss"
+        }
+      ],
+      "license": "MIT",
+      "dependencies": {
+        "nanoid": "^3.3.4",
+        "picocolors": "^1.0.0",
+        "source-map-js": "^1.0.2"
+      },
+      "engines": {
+        "node": "^10 || ^12 || >=14"
+      }
+    },
+    "node_modules/prettier": {
+      "version": "3.0.1",
+      "resolved": "https://registry.npmjs.org/prettier/-/prettier-3.0.1.tgz",
+      "integrity": "sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ==",
+      "bin": {
+        "prettier": "bin/prettier.cjs"
+      },
+      "engines": {
+        "node": ">=14"
+      },
+      "funding": {
+        "url": "https://github.com/prettier/prettier?sponsor=1"
+      }
+    },
+    "node_modules/react": {
+      "version": "18.2.0",
+      "license": "MIT",
+      "dependencies": {
+        "loose-envify": "^1.1.0"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    "node_modules/react-dom": {
+      "version": "18.2.0",
+      "license": "MIT",
+      "dependencies": {
+        "loose-envify": "^1.1.0",
+        "scheduler": "^0.23.0"
+      },
+      "peerDependencies": {
+        "react": "^18.2.0"
+      }
+    },
+    "node_modules/scheduler": {
+      "version": "0.23.0",
+      "license": "MIT",
+      "dependencies": {
+        "loose-envify": "^1.1.0"
+      }
+    },
+    "node_modules/server-only": {
+      "version": "0.0.1",
+      "resolved": "https://registry.npmjs.org/server-only/-/server-only-0.0.1.tgz",
+      "integrity": "sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA=="
+    },
+    "node_modules/source-map-js": {
+      "version": "1.0.2",
+      "license": "BSD-3-Clause",
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    "node_modules/streamsearch": {
+      "version": "1.1.0",
+      "engines": {
+        "node": ">=10.0.0"
+      }
+    },
+    "node_modules/styled-jsx": {
+      "version": "5.1.1",
+      "license": "MIT",
+      "dependencies": {
+        "client-only": "0.0.1"
+      },
+      "engines": {
+        "node": ">= 12.0.0"
+      },
+      "peerDependencies": {
+        "react": ">= 16.8.0 || 17.x.x || ^18.0.0-0"
+      },
+      "peerDependenciesMeta": {
+        "@babel/core": {
+          "optional": true
+        },
+        "babel-plugin-macros": {
+          "optional": true
+        }
+      }
+    },
+    "node_modules/tslib": {
+      "version": "2.5.0",
+      "license": "0BSD"
+    },
+    "node_modules/typescript": {
+      "version": "5.0.4",
+      "license": "Apache-2.0",
+      "bin": {
+        "tsc": "bin/tsc",
+        "tsserver": "bin/tsserver"
+      },
+      "engines": {
+        "node": ">=12.20"
+      }
+    },
+    "node_modules/zod": {
+      "version": "3.21.4",
+      "resolved": "https://registry.npmjs.org/zod/-/zod-3.21.4.tgz",
+      "integrity": "sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==",
+      "funding": {
+        "url": "https://github.com/sponsors/colinhacks"
+      }
+    }
+  },
+  "dependencies": {
+    "@next/env": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/env/-/env-13.4.3-canary.2.tgz",
+      "integrity": "sha512-j8DAjfn1OoQ+SH78AsMY0e1mx2K2k+d5WIZxa+nJoysKH2Mgyx6KlQHc6OJLdWuv6bCT68LQxMOJ0KGsU1Wz6A=="
+    },
+    "@next/swc-darwin-arm64": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.4.3-canary.2.tgz",
+      "integrity": "sha512-kOy5V9cVg6UiyFH23u/nf7pfUkHoQp/Gh9YPTmqrTabBDbzTul0+6HtfAJFwJ5mGm8tA4cxBwQhp0gh3ZbKXBw==",
+      "optional": true
+    },
+    "@next/swc-darwin-x64": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-13.4.3-canary.2.tgz",
+      "integrity": "sha512-z05rr6lxgpu5SSEtiO3nH9RzYbZeIB5vqGDLELprCP33Wv7WjapGDnwIaVWJemVQo4BQ8pDXDYDEQsTdlsRkSA==",
+      "optional": true
+    },
+    "@next/swc-linux-arm64-gnu": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-13.4.3-canary.2.tgz",
+      "integrity": "sha512-m4gW+lix7a1enm+zK2IzXowOYGeBM5kmAtTS+PSvcU4LBgPtAC2moEh8rWVI3544QuEHbR5hM3DeyPN6bkWBwA==",
+      "optional": true
+    },
+    "@next/swc-linux-arm64-musl": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-13.4.3-canary.2.tgz",
+      "integrity": "sha512-zW9Y04gRLR020aqX1WzjKwyHKkqGhAeAHAXgA1/OivZ+qWIsJpikgq2962QJwauizCAFbq+pdCKf54JJkkh8rw==",
+      "optional": true
+    },
+    "@next/swc-linux-x64-gnu": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-13.4.3-canary.2.tgz",
+      "integrity": "sha512-y5Il4ZnZZxYomSqLFxSCsDZSYO9vlOwByD/0JUMzB85hV0z8BYDdoliRpVkoaUrqn7tDdKBlS8qrgefOd85Ejw==",
+      "optional": true
+    },
+    "@next/swc-linux-x64-musl": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-13.4.3-canary.2.tgz",
+      "integrity": "sha512-mx6GUN1SgV4Du4oxvYQgIsdRG44VLMWqScmu4QtOTzup4ouOCwN620vqTtO4BET5RkFGher0aUt4ZJQFCH+7zw==",
+      "optional": true
+    },
+    "@next/swc-win32-arm64-msvc": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-13.4.3-canary.2.tgz",
+      "integrity": "sha512-TC7cjX6IV4tNAfYQlNklNXy5Vtwua9GRn4Odxxit8YHGo0un1UU4lvJSBEXa6b9o4aWDAUMMgi3M0/tU6IjGew==",
+      "optional": true
+    },
+    "@next/swc-win32-ia32-msvc": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-13.4.3-canary.2.tgz",
+      "integrity": "sha512-YiAaes1tQqxTQwhDM4+mlePExf+DcN+MhVUhfnh5VhhE1hkoWWZyPoPzw/KSXSPGr97+IUbCtRxWXdIMQkG3Og==",
+      "optional": true
+    },
+    "@next/swc-win32-x64-msvc": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.4.3-canary.2.tgz",
+      "integrity": "sha512-N+LcM2cWCEAQ/xXdF3W0avdgZ4aJ9ASXGXRqXMjh6C8V1Wet7/lvDGtOp86WRnhP23fGdi643fo6TGl6hU5+qQ==",
+      "optional": true
+    },
+    "@swc/helpers": {
+      "version": "0.5.1",
+      "requires": {
+        "tslib": "^2.4.0"
+      }
+    },
+    "@types/node": {
+      "version": "18.16.2"
+    },
+    "@types/prop-types": {
+      "version": "15.7.5"
+    },
+    "@types/react": {
+      "version": "18.2.0",
+      "requires": {
+        "@types/prop-types": "*",
+        "@types/scheduler": "*",
+        "csstype": "^3.0.2"
+      }
+    },
+    "@types/scheduler": {
+      "version": "0.16.3"
+    },
+    "busboy": {
+      "version": "1.6.0",
+      "requires": {
+        "streamsearch": "^1.1.0"
+      }
+    },
+    "caniuse-lite": {
+      "version": "1.0.30001481"
+    },
+    "client-only": {
+      "version": "0.0.1"
+    },
+    "csstype": {
+      "version": "3.1.2"
+    },
+    "js-tokens": {
+      "version": "4.0.0"
+    },
+    "loose-envify": {
+      "version": "1.4.0",
+      "requires": {
+        "js-tokens": "^3.0.0 || ^4.0.0"
+      }
+    },
+    "ms": {
+      "version": "3.0.0-canary.1"
+    },
+    "nanoid": {
+      "version": "3.3.6"
+    },
+    "next": {
+      "version": "13.4.3-canary.2",
+      "resolved": "https://registry.npmjs.org/next/-/next-13.4.3-canary.2.tgz",
+      "integrity": "sha512-JrghmWg4ZRuwz2F02mLa7nOdSDtwDZjIa62awovVNSABrX46cywt6fPwmoTzv6LJfqmu82b0lZ2bRe2zxA+iLQ==",
+      "requires": {
+        "@next/env": "13.4.3-canary.2",
+        "@next/swc-darwin-arm64": "13.4.3-canary.2",
+        "@next/swc-darwin-x64": "13.4.3-canary.2",
+        "@next/swc-linux-arm64-gnu": "13.4.3-canary.2",
+        "@next/swc-linux-arm64-musl": "13.4.3-canary.2",
+        "@next/swc-linux-x64-gnu": "13.4.3-canary.2",
+        "@next/swc-linux-x64-musl": "13.4.3-canary.2",
+        "@next/swc-win32-arm64-msvc": "13.4.3-canary.2",
+        "@next/swc-win32-ia32-msvc": "13.4.3-canary.2",
+        "@next/swc-win32-x64-msvc": "13.4.3-canary.2",
+        "@swc/helpers": "0.5.1",
+        "busboy": "1.6.0",
+        "caniuse-lite": "^1.0.30001406",
+        "postcss": "8.4.14",
+        "styled-jsx": "5.1.1",
+        "zod": "3.21.4"
+      }
+    },
+    "picocolors": {
+      "version": "1.0.0"
+    },
+    "postcss": {
+      "version": "8.4.14",
+      "requires": {
+        "nanoid": "^3.3.4",
+        "picocolors": "^1.0.0",
+        "source-map-js": "^1.0.2"
+      }
+    },
+    "prettier": {
+      "version": "3.0.1",
+      "resolved": "https://registry.npmjs.org/prettier/-/prettier-3.0.1.tgz",
+      "integrity": "sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ=="
+    },
+    "react": {
+      "version": "18.2.0",
+      "requires": {
+        "loose-envify": "^1.1.0"
+      }
+    },
+    "react-dom": {
+      "version": "18.2.0",
+      "requires": {
+        "loose-envify": "^1.1.0",
+        "scheduler": "^0.23.0"
+      }
+    },
+    "scheduler": {
+      "version": "0.23.0",
+      "requires": {
+        "loose-envify": "^1.1.0"
+      }
+    },
+    "server-only": {
+      "version": "0.0.1",
+      "resolved": "https://registry.npmjs.org/server-only/-/server-only-0.0.1.tgz",
+      "integrity": "sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA=="
+    },
+    "source-map-js": {
+      "version": "1.0.2"
+    },
+    "streamsearch": {
+      "version": "1.1.0"
+    },
+    "styled-jsx": {
+      "version": "5.1.1",
+      "requires": {
+        "client-only": "0.0.1"
+      }
+    },
+    "tslib": {
+      "version": "2.5.0"
+    },
+    "typescript": {
+      "version": "5.0.4"
+    },
+    "zod": {
+      "version": "3.21.4",
+      "resolved": "https://registry.npmjs.org/zod/-/zod-3.21.4.tgz",
+      "integrity": "sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw=="
+    }
+  }
+}
