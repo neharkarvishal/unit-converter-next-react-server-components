@@ -23,6 +23,10 @@ export default function UnitForm({ payload }) {
     })
       .then(res => res.json())
       .then(res => {
+        console.log('state', { fromUnit, toUnit });
+        console.log('body', { frmVal, frmUn, toVal, toUn });
+        console.log('res', { ...res });
+
         setFromUnitVal(res.fromUnitVal);
         setFromUnit(res.fromUnit);
         setToUnitVal(res.toUnitVal);
