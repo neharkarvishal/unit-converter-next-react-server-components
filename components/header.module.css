@@ -30,18 +30,6 @@
   vertical-align: top;
 }
 
-a.login {
-  padding: 10px;
-  display: inline-block;
-  font-size: 10pt;
-  text-decoration: none;
-  color: #000;
-}
-
-.login:hover {
-  color: #fff;
-}
-
 .nav {
   display: inline-block;
   vertical-align: top;
@@ -90,9 +78,6 @@ a.login {
     padding-bottom: 0;
   }
 
-  a.login {
-    padding: 24px 10px 23px;
-  }
 
   .nav {
     display: block;

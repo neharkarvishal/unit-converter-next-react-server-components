@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 export default function ErrorPlaceholder({ error }) {
   useEffect(() => {
@@ -6,7 +6,5 @@ export default function ErrorPlaceholder({ error }) {
     console.error(error);
   }, [error]);
 
-  return (
-    <span>{`Application error: a server-side exception has occurred`}</span>
-  );
+  return <span>{`Application error: a server-side exception has occurred`}</span>;
 }

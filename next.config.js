@@ -1,14 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    // logging: 'verbose',
+  },
   productionBrowserSourceMaps: true,
   async rewrites() {
     return [
       {
         source: '/',
-        destination: '/news/1'
-      }
-    ]
-  }
-}
+        destination: '/unit/1',
+      },
+    ];
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
